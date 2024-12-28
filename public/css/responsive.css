@@ -1,0 +1,77 @@
+@media (max-width: 600px) {
+  .desktop-navigation {
+    display: none;
+  }
+
+  .mobile-navigation {
+    display: flex;
+  }
+
+  .btn-group {
+    gap: 11px;
+  }
+
+  .owl-carousel .item {
+    position: relative;
+    height: 37vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  
+  .slider-content {
+    top: -7%;
+    left: 3rem;
+}
+
+.slider-content p {
+  font-size: 22px;
+  margin-bottom: 10px;
+  line-height: 26px;
+}
+
+.slider-content h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.owl-nav button {
+  top: 89%;
+}
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .desktop-navigation {
+    display: none;
+  }
+
+  .mobile-navigation {
+    display: flex;
+  }
+
+  .owl-carousel .item {
+    height: 29vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider-content {
+  top: 0;
+  left: 4rem;
+}
+
+.slider-content p {
+font-size: 33px;
+margin-bottom: 10px;
+line-height: 45px;
+}
+
+.slider-content h1 {
+font-size: 54px;
+margin-bottom: 5px;
+}
+
+.owl-nav button {
+top: 95%;
+}
+}
