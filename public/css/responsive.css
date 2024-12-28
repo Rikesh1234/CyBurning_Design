@@ -38,6 +38,21 @@
 .owl-nav button {
   top: 89%;
 }
+
+
+.text-img {
+	height: 250px;
+
+}
+
+img{
+  width: 100%;
+}
+
+body{
+  overflow-x: hidden;
+}
+
 }
 
 @media (min-width: 600px) and (max-width: 900px) {
