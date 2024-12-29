@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Home</title>
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link rel="icon" href="public/images/favicon.png" type="image/x-icon" />
+    <!-- Stylesheets-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Poppins:400,500,600%7CTeko:300,400,500%7CMaven+Pro:500"
+    />
+    <link rel="stylesheet" href="/public/css/bootstrap.css" />
+    <link rel="stylesheet" href="/public/css/fonts.css" />
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="stylesheet" href="/public/css/responsive.css" />
+  </head>
+  <body>
+    <!-- desktop navigation -->
+    <div class="desktop-navigation">
+      <nav class="navbar">
+        <div class="logo-section">
+          <img
+            class="nav-logo-desktop"
+            src="/public/images/light.png"
+            alt="CyBurning"
+          />
+        </div>
+
+        <ul>
+          <li class="selected"><a href="#">Home</a></li>
+          <li class="nav-list"><a href="#">Services</a></li>
+          <li class="nav-list"><a href="#">Projects</a></li>
+          <li class="nav-list"><a href="#">Team</a></li>
+          <li class="nav-list"><a href="#">News</a></li>
+          <li class="nav-list"><a href="#">Contact</a></li>
+          <div class="icons-nav">
+            <li class="nav-icon share-icon">
+              <i class="fa-solid fa-share-nodes"></i>
+              <span class="social-nav">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="social-nav-close fa-solid fa-xmark"></i>
+              </span>
+            </li>
+            <li class="nav-icon">
+              <a
+                href="javascript:void(0);"
+                class="login-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#searchModal"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+            </li>
+            <div class="desktopMenu nav-icon">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </div>
+    <!-- ********Desktop Navigation********** -->
+
+    <!-- ********Mobile Navigation********** -->
+    <div class="navbar mobile-navigation py-2 px-4">
+      <div class="logo-container">
+        <img
+          class="nav-logo-mobile"
+          src="/public/images/light.png"
+          alt="CyBurning Pvt Ltd"
+        />
+      </div>
+      <div class="menu-toggle" id="menuToggle">
+        <div class="bars"></div>
+        <div class="bars"></div>
+        <div class="bars"></div>
+      </div>
+    </div>
+
+    <nav id="mobileMenu" class="mobile-menu">
+      <div class="menu-header">
+        <div class="logo-container">
+          <img
+            class="nav-logo-mobile-open"
+            src="/public/images/light.png"
+            alt="ig-acedemy-logo"
+          />
+        </div>
+        <div class="close-menu" id="closeMenu">&times;</div>
+      </div>
+      <div class="tab-buttons">
+        <div class="tab-btn active" data-target="menu-content">Menu</div>
+        <div class="tab-btn" data-target="info-content">Info</div>
+      </div>
+      <div class="tab-content">
+        <!-- Menu Content -->
+        <div id="menu-content" class="tab-panel active">
+          <ul class="menu-items">
+            <li class="has-submenu">
+              <a href="javascript:void(0)">Pages <span>+</span></a>
+              <ul class="submenu">
+                <li class="has-submenu-child">
+                  <a href="javascript:void(0)">About <span>+</span></a>
+                  <ul class="submenu-child">
+                    <li><a href="#">About One</a></li>
+                    <li><a href="#">About Two</a></li>
+                    <li><a href="#">About Three</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Staff</a></li>
+                <li><a href="#">Event</a></li>
+              </ul>
+            </li>
+            <!-- Other Menu Items -->
+          </ul>
+        </div>
+
+        <!-- Info Content (this can be any static content you want to display) -->
+        <div id="info-content" class="tab-panel">
+          <div class="row pb-3 align-items-center">
+            <i class="col-2 footer-icon-contact fa-solid fa-location-dot"></i
+            ><span class="col-10 footer-contact address"
+              >203 Fake St. Mountain View, San Francisco, California, USA</span
+            >
+          </div>
+          <div class="row pb-3 align-items-center">
+            <i class="col-2 footer-icon-contact fa-solid fa-phone"></i>
+            <span class="col-10 footer-contact phone">+2 392 3929 210</span>
+          </div>
+          <div class="row pb-3 align-items-center">
+            <i class="col-2 footer-icon-contact fa-solid fa-envelope"></i>
+            <span class="col-10 footer-contact email">
+              info@yourdomain.com</span
+            >
+          </div>
+          <div class="social-media d-flex gap-3 align-items-center">
+            <a href="#"
+              ><i class="social-icon fa-brands fa-facebook footer-icon"></i
+            ></a>
+            <a href="#"
+              ><i class="social-icon fa-brands fa-instagram footer-icon"></i
+            ></a>
+            <a href="#"
+              ><i class="social-icon fa-brands fa-x-twitter footer-icon"></i
+            ></a>
+            <a href="#"
+              ><i class="social-icon fa-brands fa-linkedin footer-icon"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ********Mobile Navigation********** -->
+
+    <!-- ********Breadcrumbs Section********** -->
+    <section class="breadcrumb-section">
+      <div class="breadcrumb-overlay">
+        <div class="container">
+          <h1 class="breadcrumb-title">Cyburning Project</h1>
+          <nav>
+            <ul class="breadcrumb">
+              <li><a href="#">Home</a></li>
+              <li>Projects</li>
+              <!-- <li>Digital Marketing</li> -->
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <!-- ********Breadcrumbs Section********** -->
+
+    <!-- ********Service Section************* -->
+    <section class="project-showcase py-5">
+        <div class="container">
+          <!-- Tab Buttons -->
+          <div class="tabs-project-buttons" data-aos="fade-up">
+            <button class="tab-project-btn active" data-target="all">All</button>
+            <button class="tab-project-btn" data-target="web-project">Web Projects</button>
+            <button class="tab-project-btn" data-target="app-project">App Projects</button>
+            <button class="tab-project-btn" data-target="software-project">Software Projects</button>
+          </div>
+      
+          <!-- Tab Content -->
+          <div class="tabs-project-content" data-aos="fade-up">
+            <!-- All Projects -->
+            <div class="tab-project-panel" id="all">
+            </div>
+      
+            <!-- Web Projects -->
+            <div class="tab-project-panel" id="web-project">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="project-card">
+                    <img src="/public/images/1.jpg" alt="">
+                    <div class="project-content">
+                    <h4>Project 1</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- App Projects -->
+            <div class="tab-project-panel" id="app-project">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="project-card">
+                    <img src="/public/images/1.jpg" alt="">
+                    <div class="project-content">
+                    <h4>Project 1</h4>
+                    </div>
+                </div>
+              </div>
+            </div>
+            </div>
+      
+            <!-- Software Projects -->
+            <div class="tab-project-panel" id="software-project">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="project-card">
+                    <img src="/public/images/1.jpg" alt="">
+                    <div class="project-content">
+                    <h4>Project 1</h4>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+  
+      </section>
+    <!-- ********Service Section************* -->
+
+    <footer>
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="title">Write Us</div>
+            <div class="info-container">
+              <div class="sub-title">General Inquiry</div>
+              <div class="desc">info@cyburning.com</div>
+            </div>
+            <div class="info-container">
+              <div class="sub-title">Marketing</div>
+              <div class="desc">mkt@cyburning.com</div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="title">Call Us</div>
+            <div class="info-container">
+              <div class="sub-title">Phone</div>
+              <div class="desc">
+                +977 9818541102<br />
+                +977 9818177999
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="title">Visit Us</div>
+            <div class="info-container">
+              <div class="sub-title">Office</div>
+              <div class="desc">
+                CyBurning Pvt Ltd<br />
+                Bagbazar, Kathmandu Nepal
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-nav">
+            <ul>
+              <li class="selected"><a href="#">Home</a></li>
+              <li class="nav-list"><a href="#">Services</a></li>
+              <li class="nav-list"><a href="#">Projects</a></li>
+              <li class="nav-list"><a href="#">Team</a></li>
+              <li class="nav-list"><a href="#">News</a></li>
+              <li class="nav-list"><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="copy-right-container pb-3 text-center">
+            © 2024 - 2024 CyBurning. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div
+      class="modal fade"
+      id="searchModal"
+      tabindex="-1"
+      aria-labelledby="searchModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="searchModalLabel">Search</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form id="searchForm" action="#" method="post">
+              <div class="row align-items-center">
+                <!-- Name Input -->
+                <div class="col-9">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="search"
+                    name="search"
+                    placeholder="Type Here..."
+                    required
+                  />
+                </div>
+                <!-- Submit Button -->
+                <div class="col-2">
+                  <button type="submit" class="btn btn-primary">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="/public/js/script.js"></script>
+  </body>
+</html>
